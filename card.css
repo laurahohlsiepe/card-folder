@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  max-width: 20rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.price p {
+  padding: 0.5rem 7rem;
+  background-color: white;
+}
+
+.price-p {
+  padding: 0.5rem 7rem;
+  background-color: white;
+}
+
+.selection {
+  background-color: rgb(194, 191, 191);
+  border-radius: 10px;
+}
+
+.selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.5rem;
+  _grid-template-columns: 50px 50px 50px;
+}
+
+.selector div {
+  _flex-grow: 2;
+  width: 10rem;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  padding: 0.5rem 7rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
